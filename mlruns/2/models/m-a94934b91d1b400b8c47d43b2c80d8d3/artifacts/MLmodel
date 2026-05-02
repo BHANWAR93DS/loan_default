@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/Bhanw/loan_default/mlruns/2/models/m-a94934b91d1b400b8c47d43b2c80d8d3/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-a94934b91d1b400b8c47d43b2c80d8d3
+model_size_bytes: 8498310
+model_uuid: m-a94934b91d1b400b8c47d43b2c80d8d3
+prompts: null
+run_id: 770ac958a92742419040f3de994f7565
+utc_time_created: '2026-05-02 09:49:21.374746'
